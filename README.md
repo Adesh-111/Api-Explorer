@@ -61,8 +61,6 @@ This project aims to create a web application named "API Explorer" using Express
 - `index.js`: Main file containing server setup and routes.
 - `views/`: Directory containing EJS templates for rendering HTML pages.
 - `public/`: Directory for static assets like CSS files and images.
-- `controllers/`: Directory for handling API requests and business logic.
-- `utils/`: Directory for utility functions.
 - `README.md`: Instructions and information about the project.
 
 ### Dependencies
