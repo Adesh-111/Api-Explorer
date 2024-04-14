@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+    color: #DC5F00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 5px;
+}
+
+
+
+nav li,a{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    color: #DC5F00;
+}
+
+nav * {
+    padding: 10px;
+    margin: 5px;
+}
+
+.hero {
+    background-color: black;
+}
+
+.lead {
+    color: white;
+}
+
+.pri {
+    background-color: #DC5F00;
+}
+
+.try {
+    background-color: #DC5F00;
+    color: white;
+    padding: 5px;
+    width: 100px;
+}
+
+.card {
+    background-color: #F5E8E4;
+}
+
+.hero h1 {
+    color: #DC5F00;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #DC5F00;
+}
+
+.joke-container h1 {
+    color: #DC5F00;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.joke-container h4,p{
+    color: white;
+    padding: 20px;
+}
+
+.joke-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    width: 800px;
+    border: 7px solid #DC5F00;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.card p{
+    color: #9f4e08;
+}
+.card button{
+    transition: 200ms ease-in;
+}
+
+.card button:hover{
+    background-color: #cf4108;
+    border: 3px solid #000000;
+}
+
+.bored-container h1{
+    color: #DC5F00;
+    width: 300px;
+}
+
+.bored-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-basis: 400px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.bored-container *{
+    padding: 10px;
+}
+
+.bored-container li{
+    color: coral;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    flex-direction: column;
+}
+
+form label{
+    color: #DC5F00;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    justify-self: flex-start;
+}
+
+form input{
+    background-color: #000000;
+    color: white;
+    border: 3px solid #DC5F00;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+form input[name="submit"]{
+    background-color: #DC5F00;
+}
+
+.ans h3{
+    color: #DC5F00;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.got-container li{
+    text-align: center;
+    list-style: none;
+    color: coral;
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title-lorem{
+    color: #DC5F00;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 75px;
+}
+
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
